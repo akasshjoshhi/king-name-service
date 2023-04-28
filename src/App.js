@@ -11,8 +11,8 @@ import { networks } from "./utils/networks";
 
 const tld = ".king";
 
-const CONTRACT_ADDRESS = "0xa077976742284Ba11e5de58452B1C5338F828EDF";
-const TWITTER_HANDLE = "akasshjoshhi";
+const CONTRACT_ADDRESS = "0xAAE2Cc64E2b750adB33c277370590Ee7E9492f85";
+const TWITTER_HANDLE = "the_akash_joshi";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -48,7 +48,7 @@ const App = () => {
       try {
         await window.ethereum.request({
           method: "wallet_switchEthereumChain",
-          params: [{ chainId: "0x13881" }],
+          params: [{ chainId: "0x89" }],
         });
       } catch (error) {
         if (error.code === 4902) {
@@ -57,15 +57,15 @@ const App = () => {
               method: "wallet_addEthereumChain",
               params: [
                 {
-                  chainId: "0x13881",
-                  chainName: "Polygon Mumbai Testnet",
-                  rpcUrls: ["https://rpc-mumbai.maticvigil.com/"],
+                  chainId: "0x89",
+                  chainName: "Polygon Mainnet",
+                  rpcUrls: ["https://polygon-rpc.com"],
                   nativeCurrency: {
-                    name: "Mumbai Matic",
+                    name: "Matic",
                     symbol: "MATIC",
                     decimals: 18,
                   },
-                  blockExplorerUrls: ["https://mumbai.polygonscan.com/"],
+                  blockExplorerUrls: ["https://www.polygonscan.com/"],
                 },
               ],
             });
@@ -142,14 +142,14 @@ const App = () => {
 		
 		if (receipt.status === 1) {
           console.log(
-            "Domain minted! https://mumbai.polygonscan.com/tx/" + tx.hash
+            "Domain minted! https://polygonscan.com/tx/" + tx.hash
           );
 
           tx = await contract.setRecord(domain, record);
           await tx.wait();
 
           console.log(
-            "Record set! https://mumbai.polygonscan.com/tx/" + tx.hash
+            "Record set! https://polygonscan.com/tx/" + tx.hash
           );
           setTimeout(() => {
             fetchMints();
@@ -257,7 +257,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    if (network === "Polygon Mumbai Testnet") {
+    if (network === "Polygon Mainnet") {
       fetchMints();
     }
   }, [currentAccount, network]);
@@ -307,10 +307,10 @@ const App = () => {
   );
 
   const renderInputForm = () => {
-    if (network !== "Polygon Mumbai Testnet") {
+    if (network !== "Polygon Mainnet") {
       return (
         <div className="connect-wallet-container">
-          <p>Please connect to the Polygon Mumbai Testnet</p>
+          <p>Please connect to the Polygon Mainnet</p>
           <button className="cta-button mint-button" onClick={switchNetwork}>
             Click here to switch
           </button>
