@@ -22,8 +22,8 @@ To use King Name Service, follow these steps:
 6. Once registered, you can start using your new human-readable address!
 
 <div>
-  <img src="https://i.imgur.com/ZG6OLTZ.gif" alt="One Piece GIF" style="float: left; width: 50%;">
-  <img src="https://i.imgur.com/uoXwCkG.png" alt="One Piece Logo" style="float: right; width: 50%;">
+  <img src="https://i.imgur.com/ZG6OLTZ.gif" alt="One Piece GIF" style="float: left; width: 30%;">
+  <img src="https://i.imgur.com/uoXwCkG.png" alt="One Piece Logo" style="float: right; width: 30%;">
 </div>
 
 
