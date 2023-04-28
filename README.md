@@ -26,6 +26,10 @@ To use King Name Service, follow these steps:
   <img width="400" src="https://i.imgur.com/uoXwCkG.png">
 </p>
 
+<p align="center">
+  <img width="400" src="https://i.imgur.com/xk8eoSm.gif">
+  <img width="400" src="https://i.imgur.com/kn7jfY2.gif">
+</p>
 
 ## Example Usage
 
