@@ -30,6 +30,7 @@ To use King Name Service, follow these steps:
   <img width="800" src="https://i.imgur.com/He9qbeZ.png">
 </p>
  <!-- <img width="400" src="https://i.imgur.com/kn7jfY2.gif"> -->
+ 
 ## Example Usage
 
 Let's say your Ethereum address is `0x1234...5678`. With King Name Service, you can register the name `luffy.king` and associate it with your address. Now, you can use `luffy.king` instead of `0x1234...5678` when sending and receiving transactions. It's that simple!
