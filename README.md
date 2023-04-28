@@ -21,7 +21,11 @@ To use King Name Service, follow these steps:
 5. If available, click the "Register" button and follow the instructions on your wallet to complete the registration process.
 6. Once registered, you can start using your new human-readable address!
 
-<img src="https://i.imgur.com/ZG6OLTZ.gif" alt="Connect Wallet" width="400"/>
+<div>
+  <img src="https://i.imgur.com/ZG6OLTZ.gif" alt="One Piece GIF" style="float: left; width: 50%; padding-right: 10px;">
+  <img src="https://i.imgur.com/uoXwCkG.png" alt="One Piece Logo" style="float: right; width: 50%; padding-left: 10px;">
+</div>
+
 
 ## Example Usage
 
