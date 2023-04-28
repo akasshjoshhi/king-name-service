@@ -16,7 +16,7 @@ To use King Name Service, follow these steps:
 
 1. Install a web3-enabled wallet, such as MetaMask, on your browser.
 2. Connect to the Polygon network.
-3. Visit the King Name Service website at .
+3. Visit the King Name Service website at [https://king-name-service.vercel.app/](https://king-name-service.vercel.app/).
 4. Search for your desired name and check its availability.
 5. If available, click the "Register" button and follow the instructions on your wallet to complete the registration process.
 6. Once registered, you can start using your new human-readable address!
