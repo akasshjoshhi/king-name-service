@@ -20,7 +20,9 @@ To use King Name Service, follow these steps:
 4. Search for your desired name and check its availability.
 5. If available, click the "Register" button and follow the instructions on your wallet to complete the registration process.
 6. Once registered, you can start using your new human-readable address!
-![Connect Wallet Page](https://imgur.com/C7yrQ5N)
+
+![Connect Wallet Page](https://i.imgur.com/C7yrQ5N.mp4)
+
 ## Example Usage
 
 Let's say your Ethereum address is `0x1234...5678`. With King Name Service, you can register the name `luffy.king` and associate it with your address. Now, you can use `luffy.king` instead of `0x1234...5678` when sending and receiving transactions. It's that simple!
